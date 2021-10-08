@@ -3,15 +3,15 @@
 
 ### Delete the Binary:
 ```shell
-$ sudo rm /usr/local/bin/docker-compose
+sudo rm /usr/local/bin/docker-compose
 ```
 ### Uninstall the Package:
 ```shell
-$ sudo apt remove docker-compose
+sudo apt remove docker-compose
 ```
 ### Remove Software Dependencies:
 ```shell
-$ sudo apt autoremove
+sudo apt autoremove
 ```
 <hr/>
 
@@ -22,10 +22,10 @@ $ sudo apt autoremove
 
 ### Download docker-compose:
 ```shell
-$ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 ### Make docker-compose executable:
 ```shell
-$ sudo chmod +x /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
 ```
 <hr/>
